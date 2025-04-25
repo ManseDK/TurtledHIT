@@ -1,1 +1,8 @@
-debug: true
+# TurtledHIT Configuration
+enabled: true
+
+# Enable debug mode
+debug: false
+
+enabled-worlds:
+  - arenaworld
