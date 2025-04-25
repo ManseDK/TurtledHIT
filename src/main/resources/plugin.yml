@@ -1,0 +1,17 @@
+name: TurtledHIT
+version: '${version}'
+main: net.manse.turtledhit.TurtledHIT
+depend: [packetevents]
+api-version: '1.21'
+commands:
+  turtledhit:
+    description: Control the TurtledHIT plugin
+    usage: /turtledhit [toggle|status|debug]
+    permission: turtledhit.toggle
+permissions:
+  turtledhit.toggle:
+    description: Allows toggling TurtledHIT plugin functionality
+    default: op
+  turtledhit.notify:
+    description: Receive notifications about hit registration
+    default: op
